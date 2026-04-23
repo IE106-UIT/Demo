@@ -1,0 +1,12 @@
+/* start iPad Pro 11" (2024) css values*/
+body.ipadpro112024 #jim-mobile { position:relative; top:0px; left:0px; width:918px; height:1293px; margin:auto; }
+body.ipadpro112024 #jim-case { background-image: url("../../../../../images/mobile/ios/ios15/ipadpro11_2024@2x.png"); height:1293px; width:918px; background-size:100% auto; z-index:100; /*must be over keyboards and comment bubbles*/ position:absolute; pointer-events:none; }
+body.ipadpro112024 #jim-mobile #simulation { position: relative; height: 100%; overflow:hidden; }
+body.ipadpro112024 #jim-mobile .ui-page { overflow:hidden; }
+
+/* orientation values */
+body.ipadpro112024 #jim-mobile.landscape { height:918px; width:1293px; }
+body.ipadpro112024 #jim-case{ transform:rotate(0deg); transform-origin:auto; }
+body.ipadpro112024 #jim-case.landscape { top:0px; left:0px; transform:rotate(-90deg); transform-origin: 53.05% 35.96% 0; }
+body.ipadpro112024 #jim-container{ position: absolute; top: 43px; left: 41px; width: 834px; height: 1210px; }
+body.ipadpro112024 #jim-container.landscape { position: absolute; top: 47px; left: 35px; width: 1210px; height: 834px; }
